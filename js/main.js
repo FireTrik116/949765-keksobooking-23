@@ -3,7 +3,7 @@ function getRandomInteger(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-  getRandomInteger(0, 10);
+getRandomInteger(0, 10);
 
 function getRandomFloat(min, max, fractionDigits) {
   const fractionMultiplier = Math.pow(10, fractionDigits);
