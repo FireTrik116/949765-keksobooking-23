@@ -3,7 +3,7 @@ function getRandomInteger(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-  getRandomInteger(100, 50);
+  getRandomInteger(0, 10);
 
 function getRandomFloat(min, max, fractionDigits) {
   const fractionMultiplier = Math.pow(10, fractionDigits);
@@ -13,6 +13,6 @@ function getRandomFloat(min, max, fractionDigits) {
   );
 }
 
-getRandomFloat(50, 1, 3);
+getRandomFloat(1,10 , 3);
 
 //Источник : https://question-it.com/questions/1483098/generatsija-sluchajnogo-chisla-mezhdu-dvumja-chislami-v-javascript
